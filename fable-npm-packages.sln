@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28369B95-D49F-4949-9CCC-D26B0E9D3B72}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyLib.Core", "src\MyLib.Core\MyLib.Core.fsproj", "{7BB8A1D6-4437-494E-B25A-F6B363741E8B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Client.JavaScript", "src\Client.JavaScript\Client.JavaScript.fsproj", "{E4EBE29D-A2F9-47A6-AF0B-23721F9DAE15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB8A1D6-4437-494E-B25A-F6B363741E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB8A1D6-4437-494E-B25A-F6B363741E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB8A1D6-4437-494E-B25A-F6B363741E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB8A1D6-4437-494E-B25A-F6B363741E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EBE29D-A2F9-47A6-AF0B-23721F9DAE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EBE29D-A2F9-47A6-AF0B-23721F9DAE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EBE29D-A2F9-47A6-AF0B-23721F9DAE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EBE29D-A2F9-47A6-AF0B-23721F9DAE15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BB8A1D6-4437-494E-B25A-F6B363741E8B} = {28369B95-D49F-4949-9CCC-D26B0E9D3B72}
+		{E4EBE29D-A2F9-47A6-AF0B-23721F9DAE15} = {28369B95-D49F-4949-9CCC-D26B0E9D3B72}
+	EndGlobalSection
+EndGlobal
